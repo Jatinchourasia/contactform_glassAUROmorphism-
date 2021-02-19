@@ -1,0 +1,119 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+.contact {
+  background: linear-gradient(120deg, #061a34, #020c18);
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow:hidden;
+
+}
+
+.bigc {
+  position: relative;
+  height: 100vh;
+  top: -20%;
+  left: -20%;
+}
+.minc {
+  position: relative;
+  height: 40vh;
+  bottom: 70%;
+  left:30%
+  
+}
+.midc {
+  position: relative;
+  height: 80vh;
+  bottom: 5%;
+  right: -20%;
+}
+.lin {
+  position: relative;
+  height: 90vh;
+  bottom: 70%;
+  left: 8%;
+}
+
+.glass {
+  height: 95vh;
+  width: 95vw;
+  position: absolute;
+  background: linear-gradient(
+    120deg,
+    rgba(48, 47, 47, 0.644),
+    rgba(45, 36, 36, 0.2)
+  );
+  border-radius: 1rem;
+  z-index: 2;
+  backdrop-filter: blur(15px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.right {
+  margin: 1rem;
+  width: 50%;
+}
+.left {
+  width: 50%;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  color: beige;
+}
+input {
+  margin: 1rem 0rem;
+  width: 16rem;
+  border: none;
+  height: 2rem;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.right h1 {
+  color: white;
+}
+
+.right h2 {
+  color: white;
+  font-size: 6rem;
+}
+.right h3 {
+  font-size: 4rem;
+  background: -webkit-linear-gradient(90deg, #ca7bc6, #ed938b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  margin: 1rem 0rem;
+  align-self: flex-end;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  background-color: #ed938b;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
